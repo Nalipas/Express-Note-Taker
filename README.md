@@ -112,7 +112,8 @@ To run this application locally, <a href="https://nodejs.org/en/download/package
    ```
 
 
-Alternatively, the application is also hosted on Render, which you can view here.
+Alternatively, the application is also hosted on Render, which you can view here:
+https://express-note-taker-twvy.onrender.com/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
