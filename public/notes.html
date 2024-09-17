@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Express Note Taker</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar is-fixed-top is-dark has-shadow">
+    <a class="navbar-brand" href="/"><img src="https://cdn3.emoji.gg/emojis/7122-happy-pepe.png" alt="pepe"></a>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <i class="fas fa-save text-light save-note"></i>
+          <i class="fas fa-pen text-light new-note"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="section is-medium is-info">
+    <div class="has-text-centered">
+      <div class="columns">
+        <div class="column is-one-third list-container">
+          <div class="card">
+            <ul class="list-group">
+            </ul>
+          </div>
+        </div>
+        <div class="column is-two-thirds">
+          <input class="note-title input" placeholder="Note Title" maxlength="28" type="text">
+          <textarea class="note-textarea textarea" placeholder="Note Text"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
